@@ -18,6 +18,7 @@
 		3DC735212BCF6C0B00C3042A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC7351F2BCF6C0B00C3042A /* Main.storyboard */; };
 		3DC735232BCF6C0C00C3042A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC735222BCF6C0C00C3042A /* Assets.xcassets */; };
 		3DC735262BCF6C0C00C3042A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC735242BCF6C0C00C3042A /* LaunchScreen.storyboard */; };
+		B243B6252BFF2F9A00121653 /* UIImageView+WebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243B6242BFF2F9A00121653 /* UIImageView+WebImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		3DC735252BCF6C0C00C3042A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DC735272BCF6C0C00C3042A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		698F441EEC1A20B32FB3F27F /* Pods_searchBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_searchBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B243B6242BFF2F9A00121653 /* UIImageView+WebImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+WebImage.swift"; sourceTree = "<group>"; };
 		FCCE1AD1F150E1DA9D62C484 /* Pods-searchBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-searchBook.release.xcconfig"; path = "Target Support Files/Pods-searchBook/Pods-searchBook.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 				3DC7351D2BCF6C0B00C3042A /* ViewController.swift */,
 				3D4F13692BCF9A7900D167BD /* BookTableViewCell.swift */,
 				3D4F13632BCF90C600D167BD /* Connection.swift */,
+				B243B6242BFF2F9A00121653 /* UIImageView+WebImage.swift */,
 				3D4F13652BCF969800D167BD /* BookModel.swift */,
 				3D4F13672BCF96B700D167BD /* BookListViewModel.swift */,
 				3DC7351F2BCF6C0B00C3042A /* Main.storyboard */,
@@ -223,6 +226,7 @@
 				3DC7351A2BCF6C0B00C3042A /* AppDelegate.swift in Sources */,
 				3D4F136A2BCF9A7900D167BD /* BookTableViewCell.swift in Sources */,
 				3DC7351C2BCF6C0B00C3042A /* SceneDelegate.swift in Sources */,
+				B243B6252BFF2F9A00121653 /* UIImageView+WebImage.swift in Sources */,
 				3D4F13642BCF90C600D167BD /* Connection.swift in Sources */,
 				3D4F13682BCF96B700D167BD /* BookListViewModel.swift in Sources */,
 			);
